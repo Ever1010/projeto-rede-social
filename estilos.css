@@ -33,13 +33,26 @@
    
 
     }
+    section#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgb(44, 42, 42) ;
+
+    }
+    section#redes-sociais img:hover{
+    border: 2px solid rgb(248, 245, 245);
+    transform: translate(-3px,-3px);
+    border-bottom: 5px 5px 10px black;
+    transition: transform .3s, .2s;
+    }
     section#redes-sociais{
-    
+    text-align: right;
     }
     iframe#tela{
     position: relative;
     top: 80px;
     left: 22px;
-    width: 269px;
+    width: 267px;
     height: 471px;    
     }
